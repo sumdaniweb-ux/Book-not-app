@@ -1,0 +1,26 @@
+
+---
+
+## 📄 6. `package.json` (اگر Node.js استعمال کرنا چاہیں)
+
+```json
+{
+  "name": "gmd-app-builder",
+  "version": "1.0.0",
+  "description": "GMD Pakistan · Secure App Builder — Offline/Online App Builder with Encryption & Termux Integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 8080",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "GMD",
+    "Pakistan",
+    "App Builder",
+    "Encryption",
+    "Offline",
+    "Termux"
+  ],
+  "author": "GMD Pakistan",
+  "license": "MIT"
+}
